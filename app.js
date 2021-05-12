@@ -54,9 +54,6 @@ https.get(url,function(response){
    });
  });
 
-
-
-
 app.listen(process.env.PORT || 3000,function(){
     console.log("Server toh chal raha hai re bhaiwa");
-})
+});
